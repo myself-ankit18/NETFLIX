@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/6cefb2f5-90be-4f57-adc4-f6c3c579273d/3943990c-f4e0-4147-82ad-f531e2b547f3/IN-en-20240401-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: max(1200px, 100vw);
+    height: 645px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.main .cover {
+    width: 100%;
+    height: 645px;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    z-index: 10;
+    width: 75vw;
+    height: 100px;
+    margin: auto;
+    padding: 0px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hj {
+    width: 130px;
+
+}
+
+.akd {
+    font-size: 20px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+.button {
+    padding: 5px 12px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    font-weight: 500;
+}
+
+select {
+
+    font-size: 17px;
+    border-radius: 7px;
+    margin-left: 30px;
+    color: white;
+    text-align: center;
+
+
+}
+
+.redutton {
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.redutton:hover {
+    background-color: rgb(200, 2, 2);
+}
+
+option {
+    color: black;
+}
+
+.text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    font-size: 100px;
+    height: 80%;
+    gap: 25px;
+    padding: 35px 0px;
+}
+
+.text>:nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.text>:nth-child(2) {
+    font-size: 24px;
+}
+
+.text>:nth-child(3) {
+    font-size: 20px;
+}
+
+.login {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    top: 0;
+    gap: 18px;
+}
+
+input {
+    padding: 7px 10px 8px 14px;
+    color: white;
+    font-size: 23px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+
+}
+
+.red {
+    height: 53px;
+    width: 200px;
+    border-radius: 6px;
+    font-size: 20px;
+
+}
+
+
+
+.secondpart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 75vw;
+    padding: 50px 0px 80px 0px;
+}
+
+.enjoy {
+    color: white;
+}
+
+.enjoy>:nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.enjoy>:nth-child(2) {
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+.image1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1>img {
+    width: 558px;
+    position: relative;
+    z-index: 10;
+}
+
+.second>.image1>video {
+    width: 540px;
+    position: absolute;
+
+}
+
+.fifth>.enjoy {
+    padding-left: 20px;
+}
+
+.fourth>.image1>video {
+    position: absolute;
+    top: 10%;
+    width: 350px;
+}
+
+.faq {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.qs {
+    font-weight: bolder;
+    font-size: 48px;
+    color: white;
+    padding-top: 70px;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 6px 0px;
+    width: 75%;
+    background-color: #2d2d2d;
+    font-size: 24px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.question:hover {
+    background-color: #626262;
+
+}
+
+.faq>.question>svg {
+    filter: invert(1);
+    width: 40px;
+    height: 40px;
+}
+
+.q11 {
+    margin-top: 30px;
+}
+
+.ready {
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    color: white;
+    padding: 45px 0px 15px 0px;
+}
+
+.last {
+    padding-bottom: 80px;
+}
+
+footer {
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+}
+
+footer .questions {
+    padding-top: 70px;
+    font-size: 15px;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+a {
+    color: white;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.b1 {
+    margin-top: 30px;
+    margin-left: 0;
+    width: 150px;
+}
+
+.a {
+    padding-bottom: 100px;
+}
+
+.netflixx {
+    display: flex;
+    flex-direction: column;
+}
+
+.we {
+
+    width: 40px;
+    height: 40px;
+    outline: 2px solid rgb(0, 0, 0);
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    background-size: 90%;
+    padding-left: 30px;
+}
+
+.t {
+    display: flex;
+    flex-direction: column;
+}
+
+.text2 {
+    color: blue;
+    padding-left: 7px;
+
+}
+
+.overr {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: black;
+    border: 1px solid rgb(183, 182, 182);
+    border-radius: 8px;
+    width: 320px;
+    margin-top: -124px;
+    z-index: 10;
+    position: relative;
+}
+
+.imggg {
+    width: 60px;
+    height: 80px;
+    padding: 10px 0px;
+    padding-left: 15px;
+
+}
+
+.text1 {
+    padding-left: 7px;
+    color: white;
+    font-weight: bold;
+}
+
+.third>.image1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .overr {
+        margin-top: -90px;
+        width: 221px;
+    }
+
+    .imggg {
+        height: 40px;
+        padding: 10px 0px;
+        padding-left: 10px;
+
+    }
+
+
+    .txt {
+        font-size: 10px;
+    }
+
+    nav {
+        max-width: 90vw;
+
+    }
+
+    .secondpart {
+        flex-wrap: wrap;
+    }
+
+    .image1>img {
+        width: 300px;
+    }
+
+    .hj {
+        width: 90px;
+    }
+
+
+
+    .text> :nth-child(1) {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .text> :nth-child(2) {
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .text> :nth-child(3) {
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .enjoy>:nth-child(1) {
+        font-size: 30px;
+        text-align: center;
+        /* width: 75vw; */
+    }
+
+    .enjoy>:nth-child(2) {
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .fourth>.enjoy>:nth-child(1) {
+        font-size: 30px;
+        text-align: center;
+        width: 75vw;
+    }
+
+    .fourth>.enjoy>:nth-child(2) {
+        font-size: 18px;
+        text-align: center;
+        width: 75vw;
+
+    }
+
+    .third>.enjoy>:nth-child(1) {
+        font-size: 30px;
+        text-align: center;
+        width: 75vw;
+
+    }
+
+    .third>.enjoy>:nth-child(2) {
+        font-size: 18px;
+        text-align: center;
+        width: 75vw;
+    }
+
+    .login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .login>input {
+        max-width: 70vw;
+    }
+
+    .faq .qs {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .columns {
+        align-items: center;
+    }
+
+    .second>.image1>video {
+        width: 280px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+
+
+    .footer a {
+        font-size: 14px;
+        color: white;
+    }
+
+    .columns {
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    footer {
+        padding-top: 20px;
+    }
+
+    .ready {
+        text-align: center;
+    }
+
+    .question>:nth-child(1) {
+        font-size: 15px;
+    }
+
+    .io {
+        font-size: 12px;
+
+    }
+
+    .nav {
+        display: flex;
+    }
+
+    .button {
+        padding: 5px;
+    }
+
+    .rebu {
+        padding: 5px 7px;
+    }
+
+    .third>.image1>img {
+        padding-bottom: 15px;
+    }
+
+    .fourth>.enjoy>:nth-child(2) {
+        padding-bottom: 15px;
+    }
+
+    footer .questions {
+        padding-top: 40px;
+    }
+
+    .aot {
+        width: 30px;
+    }
+
+    .fourth>.image1>video {
+        width: 198px;
+    }
+
+}
